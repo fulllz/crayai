@@ -3,7 +3,7 @@ layout: post
 title:  " Importing data in Python using Pandas"
 date:   2020-02-05 15:23:09 -0500
 categories: data analysis
-permalink: /data-analysis/ImportingData.html
+permalink: /data-analysis/LinearRegression.html
 ---
 Pandas is one of the most preferred and widely used tools in Python for data analysis(Thank Wes McKinney, the developer of Pandas). Pandas brings the functionality of Excel together with the power of the Python language. Excel columns become pandas Series, tables become DataFrames, and complex formulas become Python functions. There are three very important components when we begin the data analysis:  
 1. Importing data
@@ -12,7 +12,7 @@ Pandas is one of the most preferred and widely used tools in Python for data ana
 
 The three components are writen in three posts: Importing data in Python using Pandas, Working with Pandas Dataframes and data visualization(part1:overview, part2:application). Importing data is one of the most essential and very first steps in any data related problem. The ability to import the data correctly is a must-have skill for every data scientist. Pandas has an input and output API which has a set of top-level reader and writer methods. Below are Pandas's method for loading and writing different data format, which means if your data is in any of the below forms, you can use pandas to load that data format and even write into a particular format.
 
-![data format](dataformat.png "Pandas's method for loading and writing diffrent  data format" )
+![data format](C://Users/meitao/crayai/images/dataformat.png "Pandas's method for loading and writing diffrent  data format" )
 
 In this post, I will summarize some practical skills for data importing with the data format of CSV, Exel(xlsx), HTML table, json or SQL. 
 
@@ -102,13 +102,14 @@ We generally think we need requests and BeautifulSoup to parse HTML tables from 
     
     > dfs  
 
-![NBA](NBAlist "NBAlist" )
+![NBA](C://Users/meitao/crayai/images/NBAlist.png "NBAlist" )
+
 
     
     > df = dfs[0]  
     > df.head()  
     
- ![NBA](NBAtable "NBAlist" )
+ ![NBA](C://Users/meitao/crayai/images/NBAtable.png "NBAlist" )
 
 ## json file  
 JSON, short for JavaScript Object Notation, is a compact, text based format used to exchange data. This format that is common for downloading, and storing, information from web servers via so-called Web APIs. JSON is a text-based format and  when opening up a JSON file, we will recognize the structure. That is, it is not so different from Python’s structure for a dictionary.  We can import json file by using pandas read_json method.
