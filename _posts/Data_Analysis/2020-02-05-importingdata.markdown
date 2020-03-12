@@ -12,7 +12,7 @@ Pandas is one of the most preferred and widely used tools in Python for data ana
 
 The three components are writen in three posts: Importing data in Python using Pandas, Working with Pandas Dataframes and data visualization(part1:overview, part2:application). Importing data is one of the most essential and very first steps in any data related problem. The ability to import the data correctly is a must-have skill for every data scientist. Pandas has an input and output API which has a set of top-level reader and writer methods. Below are Pandas's method for loading and writing different data format, which means if your data is in any of the below forms, you can use pandas to load that data format and even write into a particular format.
 
-![data format](C://Users/meitao/crayai/images/dataformat.png "Pandas's method for loading and writing diffrent  data format" )
+![image](https://user-images.githubusercontent.com/54314187/76475442-411fac00-63d5-11ea-9f91-dc8742a270f0.png)
 
 In this post, I will summarize some practical skills for data importing with the data format of CSV, Exel(xlsx), HTML table, json or SQL. 
 
@@ -102,7 +102,7 @@ We generally think we need requests and BeautifulSoup to parse HTML tables from 
     
     > dfs  
 
-![NBA](C://Users/meitao/crayai/images/NBAlist.png "NBAlist" )
+![NBA](images/NBAlist.png "NBAlist" )
 
 
     
