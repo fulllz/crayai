@@ -102,7 +102,7 @@ We generally think we need requests and BeautifulSoup to parse HTML tables from 
     
     > dfs  
 
-![image](https://user-images.githubusercontent.com/54314187/76475898-c2c40980-63d6-11ea-821f-71849917e80d.png)
+![image](https://user-images.githubusercontent.com/54314187/76479581-a1691a80-63e2-11ea-90f8-9039b6420625.png)
 
     
     > df = dfs[0]  
