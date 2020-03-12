@@ -102,14 +102,13 @@ We generally think we need requests and BeautifulSoup to parse HTML tables from 
     
     > dfs  
 
-![NBA](images/NBAlist.png "NBAlist" )
-
+![image](https://user-images.githubusercontent.com/54314187/76475898-c2c40980-63d6-11ea-821f-71849917e80d.png)
 
     
     > df = dfs[0]  
     > df.head()  
     
- ![NBA](C://Users/meitao/crayai/images/NBAtable.png "NBAlist" )
+![image](https://user-images.githubusercontent.com/54314187/76475988-f3a43e80-63d6-11ea-8738-df1ad43f59f9.png)
 
 ## json file  
 JSON, short for JavaScript Object Notation, is a compact, text based format used to exchange data. This format that is common for downloading, and storing, information from web servers via so-called Web APIs. JSON is a text-based format and  when opening up a JSON file, we will recognize the structure. That is, it is not so different from Python’s structure for a dictionary.  We can import json file by using pandas read_json method.
