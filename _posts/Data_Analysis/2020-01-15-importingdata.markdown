@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  " Importing data in Python using Pandas"
-date:   2020-02-05 15:23:09 -0500
+date:   2020-01-15 15:23:09 -0500
 categories: data analysis
 permalink: /data-analysis/importingdata.html
 ---
