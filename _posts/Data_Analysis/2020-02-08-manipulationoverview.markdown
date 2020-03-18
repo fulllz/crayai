@@ -33,7 +33,7 @@ The python package Pyjanitor extends Pandas with a verb-based API. Pyjanitor can
 ### Data types
 
 One of the first steps when exploring a new data set is making sure the data types are set correctly. A possible confusing point about pandas data types is that there is some overlap between pandas, python and numpy. This table summarizes the key points:  
-
+![image](https://user-images.githubusercontent.com/54314187/76983223-6bacc000-6913-11ea-97f5-f4d0291189e8.png)
 In order to convert data types in pandas, there are three basic options:  
 
 1. Use `astype()` to force an appropriate datatype
